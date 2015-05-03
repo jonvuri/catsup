@@ -1,0 +1,33 @@
+{
+  "name": "catsup",
+  "version": "0.1.0",
+  "description": "Fix CSP errors by extracting inline scripts from HTML",
+  "keywords": [
+    "csp",
+    "content",
+    "security",
+    "policy",
+    "fixer",
+    "inline",
+    "script",
+    "scripts",
+    "chrome"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrajav/catsup.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Jonathan Rajavuori <jrajav@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "rewrite-ext": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  }
+}
